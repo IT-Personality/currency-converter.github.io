@@ -46,7 +46,7 @@ convert.addEventListener("click", getResults);
 
 function getResults() {
 	var inpObj = document.getElementById("oamount");
-	finalAmount.style.cssText = 'display:flex ';
+	finalAmount.style.cssText = 'display:block';
 	if (!inpObj.checkValidity()) {
 		document.getElementById("demo").innerHTML = inpObj.validationMessage;
 		finalAmount.style.cssText = 'display:none';
