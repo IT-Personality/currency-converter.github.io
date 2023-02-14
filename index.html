@@ -65,7 +65,7 @@
 
       function getResults() {
         var inpObj = document.getElementById("oamount");
-        finalAmount.style.cssText = 'display:flex ';
+        finalAmount.style.cssText = 'display:block ';
         if (!inpObj.checkValidity()) {
           document.getElementById("demo").innerHTML = inpObj.validationMessage;
           finalAmount.style.cssText = 'display:none';
@@ -113,5 +113,5 @@
 <body class="animate__animated animate__fadeIn">
   <div id="app"></div>
 </body>
-<script src="script.js"></script>
+
 </html>
