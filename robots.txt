@@ -2,4 +2,3 @@ User-agent: Googlebot
 User-agent: *
 Host: www.
 Disallow: /index.html
-Disallow: /scripts/index.html
